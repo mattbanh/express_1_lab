@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
-const ingredients = ["lettuce", "mustard", "pork", "rice"];
+const ingredients = ["lettuce", "mustard", "pork", "rice", "cheese"];
 
 app.use(cors());
 
